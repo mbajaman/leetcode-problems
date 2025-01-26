@@ -5,6 +5,7 @@ using namespace std;
 #include "problems/LongestCommonPrefix_14.cpp"
 #include "problems/LengthOfLastWord_58.cpp"
 #include "problems/PlusOne_66.cpp"
+#include "problems/Sqrtx_69.cpp"
 
 void problemMap(int id) {
     switch (id) {
@@ -19,6 +20,9 @@ void problemMap(int id) {
             break;
         case 66:
             PlusOne_66().run();
+            break;
+        case 69:
+            Sqrtx_69().run();
             break;
         case -1:
             cout << "Exiting..." << endl;
